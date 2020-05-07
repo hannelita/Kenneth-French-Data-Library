@@ -218,7 +218,7 @@
       "name": "research_data_factors",
       "format": "csv",
       "mediatype": "text/csv",
-      "encoding": "GB18030",
+      "encoding": "ISO-8859-1",
       "dialect": {
         "delimiter": ",",
         "quoteChar": "\""
@@ -262,7 +262,7 @@
       "name": "research_data_factors_annual",
       "format": "csv",
       "mediatype": "text/csv",
-      "encoding": "GB18030",
+      "encoding": "ISO-8859-9",
       "dialect": {
         "delimiter": ",",
         "quoteChar": "\""
@@ -306,7 +306,7 @@
       "name": "research_data_factors_daily",
       "format": "csv",
       "mediatype": "text/csv",
-      "encoding": "GB18030",
+      "encoding": "ISO-8859-1",
       "dialect": {
         "delimiter": ",",
         "quoteChar": "\""
@@ -350,7 +350,7 @@
       "name": "research_data_factors_weekly",
       "format": "csv",
       "mediatype": "text/csv",
-      "encoding": "GB18030",
+      "encoding": "ISO-8859-1",
       "dialect": {
         "delimiter": ",",
         "quoteChar": "\""

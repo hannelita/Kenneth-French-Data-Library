@@ -86,9 +86,11 @@ with open((DEFAULT_EXTRACTED_DATA_PATH + 'f-f_research_data_5_factors_2x3.csv'),
     lines = file.readlines()
     add_comments_into_file('f-f_research_data_5_factors_2x3.csv', lines, 2)
 with open((DEFAULT_EXTRACTED_DATA_PATH + 'research_data_5_factors_2x3.csv'), "w+") as file:
-    file.writelines(lines[3:685])
+    file.write('FID' + lines[3])
+    file.writelines(lines[4:685])
 with open((DEFAULT_EXTRACTED_DATA_PATH + 'research_data_5_factors_2x3_annual.csv'), "w+") as file:
-    file.writelines(lines[687:])
+    file.write('YEAR' + lines[687])
+    file.writelines(lines[688:])
     with open('FILE_COMMENTS.md', "a+") as readme:
         readme.write(lines[686])
         readme.write('\n\n\n')
@@ -110,7 +112,8 @@ with open((DEFAULT_EXTRACTED_DATA_PATH + 'f-f_research_data_5_factors_2x3_daily.
     add_comments_into_file(
         'f-f_research_data_5_factors_2x3_daily.csv', lines, 2)
 with open((DEFAULT_EXTRACTED_DATA_PATH + 'research_data_5_factors_2x3_daily.csv'), "w+") as file:
-    file.writelines(lines[3:])
+    file.write('FID' + lines[3])
+    file.writelines(lines[4:])
 
 os.remove((DEFAULT_EXTRACTED_DATA_PATH +
            'f-f_research_data_5_factors_2x3_daily.csv'))
@@ -125,10 +128,12 @@ with open((DEFAULT_EXTRACTED_DATA_PATH + 'f-f_research_data_factors.csv'), "r") 
     lines = file.readlines()
     add_comments_into_file('f-f_research_data_factors.csv', lines, 2)
 with open((DEFAULT_EXTRACTED_DATA_PATH + 'research_data_factors.csv'), "w+") as file:
-    file.writelines(lines[3:1128])
+    file.write('FID' + lines[3])
+    file.writelines(lines[4:1128])
 
 with open((DEFAULT_EXTRACTED_DATA_PATH + 'research_data_factors_annual.csv'), "w+") as file:
-    file.writelines(lines[1131:1225])
+    file.write('YEAR' + lines[1131])
+    file.writelines(lines[1132:1225])
     with open('FILE_COMMENTS.md', "a+") as readme:
         readme.write(lines[1130] + '\n')
         readme.write(lines[1226])
@@ -147,7 +152,8 @@ with open((DEFAULT_EXTRACTED_DATA_PATH + 'f-f_research_data_factors_daily.csv'),
     lines = file.readlines()
     add_comments_into_file('f-f_research_data_factors_daily.csv', lines, 2)
 with open((DEFAULT_EXTRACTED_DATA_PATH + 'research_data_factors_daily.csv'), "w+") as file:
-    file.writelines(lines[4:24710])
+    file.write('FID' + lines[4])
+    file.writelines(lines[5:24710])
 
 os.remove((DEFAULT_EXTRACTED_DATA_PATH + 'f-f_research_data_factors_daily.csv'))
 
@@ -160,7 +166,8 @@ with open((DEFAULT_EXTRACTED_DATA_PATH + 'f-f_research_data_factors_weekly.csv')
     lines = file.readlines()
     add_comments_into_file('f-f_research_data_factors_weekly.csv', lines, 2)
 with open((DEFAULT_EXTRACTED_DATA_PATH + 'research_data_factors_weekly.csv'), "w+") as file:
-    file.writelines(lines[4:4896])
+    file.write('FID' + lines[4])
+    file.writelines(lines[5:4896])
 
 os.remove((DEFAULT_EXTRACTED_DATA_PATH + 'f-f_research_data_factors_weekly.csv'))
 
