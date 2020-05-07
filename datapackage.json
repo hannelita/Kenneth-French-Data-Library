@@ -1,0 +1,415 @@
+{
+  "name": "kenneth-french-data-lib",
+  "title": "Kenneth french data lib",
+  "resources": [
+    {
+      "path": "FILE_COMMENTS.md",
+      "pathType": "local",
+      "name": "file_comments",
+      "format": "md",
+      "mediatype": "text/markdown",
+      "encoding": "ISO-8859-1"
+    },
+    {
+      "path": "archive/us-research-returns/fama_french_3_factors_daily.zip",
+      "pathType": "local",
+      "name": "fama_french_3_factors_daily",
+      "format": "zip",
+      "mediatype": "application/zip",
+      "encoding": "KOI8-R"
+    },
+    {
+      "path": "archive/us-research-returns/fama_french_3_factors.zip",
+      "pathType": "local",
+      "name": "fama_french_3_factors",
+      "format": "zip",
+      "mediatype": "application/zip",
+      "encoding": "windows-1252"
+    },
+    {
+      "path": "archive/us-research-returns/fama_french_3_factors_weekly.zip",
+      "pathType": "local",
+      "name": "fama_french_3_factors_weekly",
+      "format": "zip",
+      "mediatype": "application/zip",
+      "encoding": "KOI8-R"
+    },
+    {
+      "path": "archive/us-research-returns/fama_french_5_factors_daily.zip",
+      "pathType": "local",
+      "name": "fama_french_5_factors_daily",
+      "format": "zip",
+      "mediatype": "application/zip",
+      "encoding": "KOI8-R"
+    },
+    {
+      "path": "archive/us-research-returns/fama_french_5_factors_weekly.zip",
+      "pathType": "local",
+      "name": "fama_french_5_factors_weekly",
+      "format": "zip",
+      "mediatype": "application/zip",
+      "encoding": "windows-1250"
+    },
+    {
+      "path": "data/us-research-returns/research_data_5_factors_2x3.csv",
+      "pathType": "local",
+      "name": "research_data_5_factors_2x3",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "GB18030",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Mkt-RF",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "SMB",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "HML",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "RMW",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "CMA",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "RF",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "path": "data/us-research-returns/research_data_5_factors_2x3_annual.csv",
+      "pathType": "local",
+      "name": "research_data_5_factors_2x3_annual",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "GB18030",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "",
+            "type": "year",
+            "format": "default"
+          },
+          {
+            "name": "Mkt-RF",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "SMB",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "HML",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "RMW",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "CMA",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "RF",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "path": "data/us-research-returns/research_data_5_factors_2x3_daily.csv",
+      "pathType": "local",
+      "name": "research_data_5_factors_2x3_daily",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "GB18030",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Mkt-RF",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "SMB",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "HML",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "RMW",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "CMA",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "RF",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "path": "data/us-research-returns/research_data_factors.csv",
+      "pathType": "local",
+      "name": "research_data_factors",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "GB18030",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Mkt-RF",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "SMB",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "HML",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "RF",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "path": "data/us-research-returns/research_data_factors_annual.csv",
+      "pathType": "local",
+      "name": "research_data_factors_annual",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "GB18030",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "",
+            "type": "year",
+            "format": "default"
+          },
+          {
+            "name": "Mkt-RF",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "SMB",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "HML",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "RF",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "path": "data/us-research-returns/research_data_factors_daily.csv",
+      "pathType": "local",
+      "name": "research_data_factors_daily",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "GB18030",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Mkt-RF",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "SMB",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "HML",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "RF",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "path": "data/us-research-returns/research_data_factors_weekly.csv",
+      "pathType": "local",
+      "name": "research_data_factors_weekly",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "GB18030",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Mkt-RF",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "SMB",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "HML",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "RF",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "path": "scripts/us-research-returns/charts.py",
+      "pathType": "local",
+      "name": "charts",
+      "format": "py",
+      "encoding": "ISO-8859-1"
+    },
+    {
+      "path": "scripts/us-research-returns/process.py",
+      "pathType": "local",
+      "name": "process",
+      "format": "py",
+      "encoding": "ISO-8859-1"
+    }
+  ],
+  "readme": "## Kenneth French Data Library Dataset\n#### The U.S. Research Returns Data\n\nThis a subdatset from the [Kenneth French Data Library](http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html). This datapacke consists of a collection of the U.S. Research Returns Data section.\n\nPlease check the cleaned data located in the `data` folder.\n\nThe `process.py` script can provide you with a data summary of each dataset. Run it `python scripts/us-research-returns/process.py`. It generates a file named `FILE_COMMENTS.md` containing all the comments inserted into the raw data. \n\n\n",
+  "description": "## Kenneth French Data Library Dataset\n#### The U.S. Research Returns Data\n\nThis a subdatset from th",
+  "licenses": [
+    {
+      "name": "ODC-PDDL",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License"
+    }
+  ]
+}
